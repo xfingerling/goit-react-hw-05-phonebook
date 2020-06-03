@@ -5,6 +5,4 @@ import "./index.css";
 
 import Phonebook from "./components/Phonebook/Phonebook";
 
-const App = () => <Phonebook />;
-
-render(<App />, document.getElementById("root"));
+render(<Phonebook />, document.getElementById("root"));
